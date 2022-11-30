@@ -17,20 +17,25 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        int absoluto(int valor)
+        int number;
+
+        public int absolute(int number)
         {
-            if (valor < 0)
-                valor = -valor;
+            if (number < 0)
+            {
+                return -number;
+            }
             else
-                valor = valor;
-            return valor;
+            {
+                return number;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int numero = int.Parse(textBox1.Text);
-            absoluto(numero);
-            MessageBox.Show(numero.ToString());
+            number = int.Parse(textBox1.Text);
+            int absoluteNumber = absolute(number);
+            MessageBox.Show("The absolute value of " + number + " is " + absoluteNumber);
         }
     }
 }
