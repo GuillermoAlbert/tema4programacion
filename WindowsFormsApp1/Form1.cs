@@ -19,8 +19,10 @@ namespace WindowsFormsApp1
 
         int absoluto(int valor)
         {
-            if (valor >= 0)
-                valor = valor - valor - valor;
+            if (valor < 0)
+                valor = -valor;
+            else
+                valor = valor;
             return valor;
         }
 
