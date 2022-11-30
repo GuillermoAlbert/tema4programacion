@@ -1,0 +1,11 @@
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
