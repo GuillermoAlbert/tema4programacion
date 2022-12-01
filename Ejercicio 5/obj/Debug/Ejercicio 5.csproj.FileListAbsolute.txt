@@ -1,0 +1,11 @@
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.AssemblyReference.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.SuggestedBindingRedirects.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio_5.Form1.resources
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio_5.Properties.Resources.resources
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.GenerateResource.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 5\obj\Debug\Ejercicio 5.pdb

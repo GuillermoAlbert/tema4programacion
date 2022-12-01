@@ -16,24 +16,43 @@ namespace Ejercicio_5
         {
             InitializeComponent();
         }
-        bool mayor(double n1, double n2)
+
+        int mayor(double n1, double n2)
         {
-            if (n1 > n2)
-                return true;
+            int comparacion = 0;
+            if (n1 == n2)
+            {
+                comparacion = 1;
+                return comparacion;
+            }
             else
-                return false;
+            {
+                if (n1 > n2)
+                {
+                    comparacion = 0;
+                    return comparacion;
+                }
+                if (n1 < n2)
+                {
+                    comparacion = 2;
+                    return comparacion;
+                }
+            }
+            return comparacion;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             double num1 = double.Parse(textBox1.Text);
             double num2 = double.Parse(textBox2.Text);
-            bool res;
+            int res;
             res = mayor(num1, num2);
-            if (res == true)
-                MessageBox.Show("El número " + num1.ToString() + " > " + num2.ToString());
-            else
-                MessageBox.Show("El número " + num1.ToString() + " < " + num2.ToString());
+            if (res == 0)
+                MessageBox.Show("El número " + num1.ToString() + " es mayor que " + num2.ToString());
+            if (res == 1)
+                MessageBox.Show("El número " + num1.ToString() + " es igual que " + num2.ToString());
+            if (res == 2)
+                MessageBox.Show("El número " + num1.ToString() + " es menor que " + num2.ToString());
 
 
         }
