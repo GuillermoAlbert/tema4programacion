@@ -108,7 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 310);
+            this.ClientSize = new System.Drawing.Size(806, 285);
             this.Controls.Add(this.textBoxResultado);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBoxAño);
