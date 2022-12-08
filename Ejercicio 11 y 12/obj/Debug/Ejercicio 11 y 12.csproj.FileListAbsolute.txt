@@ -1,0 +1,8 @@
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\bin\Debug\Ejercicio 11 y 12.exe.config
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\bin\Debug\Ejercicio 11 y 12.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\bin\Debug\Ejercicio 11 y 12.pdb
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\obj\Debug\Ejercicio 11 y 12.csproj.AssemblyReference.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\obj\Debug\Ejercicio 11 y 12.csproj.SuggestedBindingRedirects.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\obj\Debug\Ejercicio 11 y 12.csproj.CoreCompileInputs.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\obj\Debug\Ejercicio 11 y 12.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 11 y 12\obj\Debug\Ejercicio 11 y 12.pdb
