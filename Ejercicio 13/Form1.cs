@@ -16,7 +16,7 @@ namespace Ejercicio_13
         {
             InitializeComponent();
         }
-        //Función que devuelve si un año es o no bisiesto
+        //? Función que devuelve si un año es o no bisiesto
         bool bisiesto(int año)
         {
             if (año % 4 == 0 && año % 100 != 0 || año % 400 == 0)
@@ -24,7 +24,7 @@ namespace Ejercicio_13
             else
                 return false;
         }
-
+        //? Función que devuelve si una fecha es correcta o no
         bool fechaValida(int dia, int mes, int anyo)
         {
             bool res = true;
@@ -67,13 +67,95 @@ namespace Ejercicio_13
 
             return res;
         }
+        //? Función que calcula la fecha del día siguiente al introducido
+        void FechaSiguiente(int dia, int mes, int año, out int n1, out int n2, out int n3)
+        {
+            if (mes == 2)
+            {
+                if (bisiesto(año) == true)
+                {
+                    if (dia == 29)
+                    {
+                        n1 = 1;
+                        n2 = mes + 1;
+                        n3 = año;
+                    }
+                    else
+                    {
+                        n1 = dia + 1;
+                        n2 = mes;
+                        n3 = año;
+                    }
+                }
+            }
+            else
+            {
+                if (mes == 12)
+                {
+                    if (dia == 31)
+                    {
+                        n1 = 1;
+                        n2 = mes + 1;
+                        n3 = año + 1;
+                    }
+                    else
+                    {
+                        n1 = dia + 1;
+                        n2 = mes;
+                        n3 = año;
+                    }
+                }
+                if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10)
+                {
+                    if (dia == 31)
+                    {
+                        n1 = 1;
+                        n2 = mes + 1;
+                        n3 = año;
+                    }
+                    else
+                    {
+                        n1 = dia + 1;
+                        n2 = mes;
+                        n3 = año;
+                    }
+                }
+                else
+                {
+                    if (dia == 30)
+                    {
+                        n1 = 1;
+                        n2 = mes + 1;
+                        n3 = año;
+                    }
+                    else
+                    {
+                        n1 = dia + 1;
+                        n2 = mes;
+                        n3 = año;
+                    }
+                }
+            }
+        }
+    }
 
-
-        private void button1_Click(object sender, EventArgs e)
+    private void button1_Click(object sender, EventArgs e)
         {
             int dia = int.Parse(textBoxDia.Text);
             int mes = int.Parse(textBoxMes.Text);
             int año = int.Parse(textBoxAño.Text);
+
+            bool fechacorrecta = fechaValida(dia, mes, año);
+            bool añobisesto = bisiesto(año);
+
+            if (fechacorrecta == true)
+            {
+                FechaSiguiente(dia, mes, año);
+                MessageBox.Show("La fecha siguiente será: " + n1 + "/" + n2 + "/" + n3);
+            }
+            else
+                MessageBox.Show("El formato de fecha introducido es incorrecto.");
+
         }
     }
 }
