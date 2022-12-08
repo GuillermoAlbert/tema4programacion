@@ -16,7 +16,7 @@ namespace Ejercicio_15
         {
             InitializeComponent();
         }
-        //? Función que calcular el número de billetes y monedas necesarios.
+        //? Función que calcula el número de billetes y monedas necesarios.
         string calcularBilletesMonedas(ref double dinero, ref string texto, double valor)
         {
             if(dinero >= 5) // Condición para que verifique si la cantidad de dinero es mayor que 5 (se paga en billetes)
