@@ -70,6 +70,9 @@ namespace Ejercicio_13
         //? Función que calcula la fecha del día siguiente al introducido
         void FechaSiguiente(int dia, int mes, int año, out int n1, out int n2, out int n3)
         {
+            n1 = 0;
+            n2 = 0;
+            n3 = 0;
             if (mes == 2)
             {
                 if (bisiesto(año) == true)
