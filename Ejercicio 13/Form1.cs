@@ -10,12 +10,15 @@ using System.Windows.Forms;
 
 namespace Ejercicio_13
 {
+
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
+
         //? Función que devuelve si un año es o no bisiesto
         bool bisiesto(int año)
         {
@@ -90,6 +93,21 @@ namespace Ejercicio_13
                         n3 = año;
                     }
                 }
+                else
+                {
+                    if (dia == 28)
+                    {
+                        n1 = 1;
+                        n2 = mes + 1;
+                        n3 = año;
+                    }
+                    else
+                    {
+                        n1 = dia + 1;
+                        n2 = mes;
+                        n3 = año;
+                    }
+                }
             }
             else
             {
@@ -140,9 +158,8 @@ namespace Ejercicio_13
                 }
             }
         }
-    }
 
-    private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             int dia = int.Parse(textBoxDia.Text);
             int mes = int.Parse(textBoxMes.Text);
@@ -153,12 +170,14 @@ namespace Ejercicio_13
 
             if (fechacorrecta == true)
             {
-                FechaSiguiente(dia, mes, año);
+                int n1 = 0;
+                int n2 = 0;
+                int n3 = 0;
+                FechaSiguiente(dia, mes, año, out n1, out n2, out n3);
                 MessageBox.Show("La fecha siguiente será: " + n1 + "/" + n2 + "/" + n3);
             }
             else
                 MessageBox.Show("El formato de fecha introducido es incorrecto.");
-
         }
     }
 }
