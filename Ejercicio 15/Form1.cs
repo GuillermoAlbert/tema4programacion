@@ -16,5 +16,17 @@ namespace Ejercicio_15
         {
             InitializeComponent();
         }
+
+        string calcularBilletesMonedas(double dinero)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double dinero = double.Parse(label1.Text);
+            string Resultado = calcularBilletesMonedas(dinero);
+            labelResultado.Text = Resultado;
+        }
     }
 }
