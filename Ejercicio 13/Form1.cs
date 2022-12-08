@@ -34,7 +34,7 @@ namespace Ejercicio_13
             // Consideramos que la fecha es correcta y 
             // vamos viendo los casos en que la fecha es incorrecta.
 
-            if (anyo < 0 || anyo > 2019)    // Comprobamos los años
+            if (anyo < 0 || anyo > 2022)    // Comprobamos los años
                 res = false;
             else
                 if (mes < 1 || mes > 12)    // Comprobamos los meses.
@@ -116,7 +116,7 @@ namespace Ejercicio_13
                     if (dia == 31)
                     {
                         n1 = 1;
-                        n2 = mes + 1;
+                        n2 = 1;
                         n3 = año + 1;
                     }
                     else
@@ -126,6 +126,7 @@ namespace Ejercicio_13
                         n3 = año;
                     }
                 }
+                else
                 if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10)
                 {
                     if (dia == 31)

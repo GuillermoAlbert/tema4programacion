@@ -87,9 +87,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(375, 95);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.button1.Location = new System.Drawing.Point(335, 94);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 65);
+            this.button1.Size = new System.Drawing.Size(139, 65);
             this.button1.TabIndex = 8;
             this.button1.Text = "Fecha siguiente";
             this.button1.UseVisualStyleBackColor = true;
