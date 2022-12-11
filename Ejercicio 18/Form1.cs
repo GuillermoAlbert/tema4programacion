@@ -16,5 +16,17 @@ namespace Ejercicio_18
         {
             InitializeComponent();
         }
+        double serie(int m, int n)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int m = int.Parse(textBox1.Text);
+            int n = int.Parse(textBox2.Text);
+            double res = serie(m, n);
+            MessageBox.Show(res.ToString());
+
+        }
     }
 }
