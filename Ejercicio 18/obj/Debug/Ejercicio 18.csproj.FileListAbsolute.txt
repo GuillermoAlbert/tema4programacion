@@ -1,0 +1,11 @@
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\bin\Debug\Ejercicio 18.exe.config
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\bin\Debug\Ejercicio 18.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\bin\Debug\Ejercicio 18.pdb
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.AssemblyReference.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.SuggestedBindingRedirects.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio_18.Form1.resources
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio_18.Properties.Resources.resources
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.GenerateResource.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio 18.csproj.CoreCompileInputs.cache
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio 18.exe
+C:\Users\guill\source\repos\GuillermoAlbert\tema4programacion\Ejercicio 18\obj\Debug\Ejercicio 18.pdb

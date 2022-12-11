@@ -28,19 +28,19 @@ namespace Ejercicio_18
 
         double serie(int m, int n)
         {
-            double result = m;
-            for (int i=0; i<=n; i++)
+            double resultado = 0;
+            for (int i=1; i<=n; i++)
             {
-                result = result + (Math.Pow(m, i) / (factorial(i)));
+                resultado = resultado + (Math.Pow(m, i) / (factorial(i)));
             }
-            return result;
+            return resultado;
         }
         private void button1_Click(object sender, EventArgs e)
         {
             int m = int.Parse(textBox1.Text);
             int n = int.Parse(textBox2.Text);
             double res = serie(m, n);
-            MessageBox.Show(res.ToString());
+            MessageBox.Show("El resultado de esta serie para m=" + m + " y n=" + n + " es: " + res.ToString());
 
         }
     }
