@@ -16,6 +16,7 @@ namespace Ejercicio_18
         {
             InitializeComponent();
         }
+        // Función que calcula el factorial de un número.
         int factorial(int n)
         {
             int result = 1;
@@ -25,7 +26,7 @@ namespace Ejercicio_18
             }
             return result;
         }
-
+        // Función que calcula la serie haciendo uso de la función factorial anterior.
         double serie(int m, int n)
         {
             double resultado = 0;
