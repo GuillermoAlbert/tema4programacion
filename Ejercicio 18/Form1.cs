@@ -16,9 +16,24 @@ namespace Ejercicio_18
         {
             InitializeComponent();
         }
+        int factorial(int n)
+        {
+            int result = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                result = result * i;
+            }
+            return result;
+        }
+
         double serie(int m, int n)
         {
-
+            double result = m;
+            for (int i=0; i<=n; i++)
+            {
+                result = result + (Math.Pow(m, i) / (factorial(i)));
+            }
+            return result;
         }
         private void button1_Click(object sender, EventArgs e)
         {
